@@ -1,0 +1,8 @@
+# generated: toolchains (scripts/setup_tools.sh) and all outputs (decompile/compile/flags)
+tools/
+build/
+__pycache__/
+*.part
+# Roblox's proprietary stock files are downloaded by scripts/fetch_stock.sh, not committed
+stock/WebClient.wasm
+stock/WebClient.js
